@@ -8,3 +8,8 @@ Test title
     Sleep  5
     log to console  5 sec wait done
 
+Test title with Error
+    [Tags]    DEBUG
+    log to console  pass
+    Sleep  5
+    log not to console  5 sec wait done
