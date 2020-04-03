@@ -9,7 +9,7 @@ Test title
     log to console  5 sec wait done
 
 Test title with Error
-    [Tags]    DEBUG
+    [Tags]    DEBUG1
     log to console  pass
     Sleep  5
     log not to console  5 sec wait done
