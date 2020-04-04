@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200405 01:53:27.710" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/yugalshah/PycharmProjects/testGitHubM/First-Project/Gmail/test.robot" id="s1" name="Test">
+<test id="s1-t1" name="Test title">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:27.748" starttime="20200405 01:53:27.747"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:32.750" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:32.750" starttime="20200405 01:53:27.748"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:32.752" starttime="20200405 01:53:32.751"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:32.752" critical="yes" starttime="20200405 01:53:27.747"></status>
+</test>
+<test id="s1-t2" name="Test title with Error">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:32.755" starttime="20200405 01:53:32.755"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:37.758" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:37.759" starttime="20200405 01:53:32.756"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:37.760" starttime="20200405 01:53:37.759"></status>
+</kw>
+<tags>
+<tag>DEBUG1</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:37.760" critical="yes" starttime="20200405 01:53:32.753"></status>
+</test>
+<test id="s1-t3" name="Test title1">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:37.763" starttime="20200405 01:53:37.762"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:42.765" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:42.765" starttime="20200405 01:53:37.764"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:42.766" starttime="20200405 01:53:42.765"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:42.767" critical="yes" starttime="20200405 01:53:37.761"></status>
+</test>
+<test id="s1-t4" name="Test title with Error1">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:42.770" starttime="20200405 01:53:42.770"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:47.773" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:47.773" starttime="20200405 01:53:42.771"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:47.775" starttime="20200405 01:53:47.774"></status>
+</kw>
+<tags>
+<tag>DEBUG1</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:47.775" critical="yes" starttime="20200405 01:53:42.768"></status>
+</test>
+<test id="s1-t5" name="Test title2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:47.778" starttime="20200405 01:53:47.777"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:52.780" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:52.780" starttime="20200405 01:53:47.779"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:52.781" starttime="20200405 01:53:52.781"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:52.782" critical="yes" starttime="20200405 01:53:47.776"></status>
+</test>
+<test id="s1-t6" name="Test title with Error2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:52.784" starttime="20200405 01:53:52.784"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:53:57.787" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:53:57.788" starttime="20200405 01:53:52.785"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:57.789" starttime="20200405 01:53:57.788"></status>
+</kw>
+<tags>
+<tag>DEBUG1</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:53:57.789" critical="yes" starttime="20200405 01:53:52.783"></status>
+</test>
+<test id="s1-t7" name="Test title3">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:53:57.791" starttime="20200405 01:53:57.791"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:54:02.793" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:54:02.794" starttime="20200405 01:53:57.791"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:02.795" starttime="20200405 01:54:02.794"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:54:02.795" critical="yes" starttime="20200405 01:53:57.790"></status>
+</test>
+<test id="s1-t8" name="Test title with Error3">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:02.798" starttime="20200405 01:54:02.797"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:54:07.800" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:54:07.800" starttime="20200405 01:54:02.798"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:07.801" starttime="20200405 01:54:07.801"></status>
+</kw>
+<tags>
+<tag>DEBUG1</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:54:07.802" critical="yes" starttime="20200405 01:54:02.796"></status>
+</test>
+<test id="s1-t9" name="Test title4">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:07.806" starttime="20200405 01:54:07.805"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:54:12.808" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:54:12.809" starttime="20200405 01:54:07.806"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:12.810" starttime="20200405 01:54:12.809"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:54:12.811" critical="yes" starttime="20200405 01:54:07.803"></status>
+</test>
+<test id="s1-t10" name="Test title with Error4">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>pass</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:12.815" starttime="20200405 01:54:12.814"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200405 01:54:17.817" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200405 01:54:17.817" starttime="20200405 01:54:12.816"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>5 sec wait done</arg>
+</arguments>
+<status status="PASS" endtime="20200405 01:54:17.818" starttime="20200405 01:54:17.817"></status>
+</kw>
+<tags>
+<tag>DEBUG1</tag>
+</tags>
+<status status="PASS" endtime="20200405 01:54:17.818" critical="yes" starttime="20200405 01:54:12.812"></status>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" endtime="20200405 01:54:17.820" starttime="20200405 01:53:27.714"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="10">Critical Tests</stat>
+<stat fail="0" pass="10">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="5">DEBUG</stat>
+<stat fail="0" pass="5">DEBUG1</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="10">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
