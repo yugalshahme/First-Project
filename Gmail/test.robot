@@ -60,4 +60,4 @@ Test title with Error4
     [Tags]    DEBUG1
     log to console  pass
     Sleep  5
-    log not to console  5 sec wait done
+    log to console  5 sec wait done
