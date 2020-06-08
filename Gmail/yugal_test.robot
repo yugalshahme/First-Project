@@ -37,3 +37,9 @@ Test title3
     log to console  Fail
     Sleep  5
     log to console  5 sec wait done
+
+Test title4
+    [Tags]    DEBUG
+    log to console  Fail
+    Sleep  5
+    log to console  5 sec wait done
