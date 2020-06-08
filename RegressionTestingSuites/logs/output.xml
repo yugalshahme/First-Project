@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.3 (Python 3.7.5 on linux)" generated="20200608 12:46:40.061">
+<suite id="s1" name="AllTagsTestCases" source="/home/yugal/GitTestForMail/First-Project/RegressionTestingSuites/TestSuites/AllTagsTestCases.robot">
+<test id="s1-t1" name="Test for Critical Test Cases">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Critical test Started</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:40.074" endtime="20200608 12:46:40.074"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200608 12:46:45.075" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200608 12:46:40.075" endtime="20200608 12:46:45.075"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Critical test Passed</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:45.075" endtime="20200608 12:46:45.075"></status>
+</kw>
+<tags>
+<tag>Critical_test</tag>
+</tags>
+<status status="PASS" starttime="20200608 12:46:40.074" endtime="20200608 12:46:45.075" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test for Smoke Test Cases">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Smoke Testing Started</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:45.076" endtime="20200608 12:46:45.076"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200608 12:46:50.077" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200608 12:46:45.076" endtime="20200608 12:46:50.077"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Smoke Testing Passed</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:50.078" endtime="20200608 12:46:50.078"></status>
+</kw>
+<tags>
+<tag>Smoke_Test</tag>
+</tags>
+<status status="PASS" starttime="20200608 12:46:45.075" endtime="20200608 12:46:50.079" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Test for Sanity Test Cases">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Sanity Testing Started</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:50.080" endtime="20200608 12:46:50.081"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200608 12:46:55.082" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200608 12:46:50.081" endtime="20200608 12:46:55.082"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Sanity Testing Passed</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:55.083" endtime="20200608 12:46:55.083"></status>
+</kw>
+<tags>
+<tag>Sanity_Test</tag>
+</tags>
+<status status="PASS" starttime="20200608 12:46:50.079" endtime="20200608 12:46:55.084" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Test for Functional Test Cases">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Functional Testing Started</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:46:55.085" endtime="20200608 12:46:55.086"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200608 12:47:00.087" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200608 12:46:55.086" endtime="20200608 12:47:00.087"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Functional Testing Passed</arg>
+</arguments>
+<status status="PASS" starttime="20200608 12:47:00.088" endtime="20200608 12:47:00.089"></status>
+</kw>
+<tags>
+<tag>Functional_Test</tag>
+</tags>
+<status status="PASS" starttime="20200608 12:46:55.084" endtime="20200608 12:47:00.089" critical="yes"></status>
+</test>
+<doc>This File Contain All Testing Level Test Cases</doc>
+<status status="PASS" starttime="20200608 12:46:40.061" endtime="20200608 12:47:00.091"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Critical_test</stat>
+<stat pass="1" fail="0">Functional_Test</stat>
+<stat pass="1" fail="0">Sanity_Test</stat>
+<stat pass="1" fail="0">Smoke_Test</stat>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="AllTagsTestCases">AllTagsTestCases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
