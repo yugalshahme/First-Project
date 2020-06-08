@@ -4,9 +4,9 @@ Documentation    This File Contain All Testing Level Test Cases
 *** Test Cases ***
 Test for Critical Test Cases
     [Tags]    Critical_test
-    log to console  Critical tests Started
+    log to console  Critical Tests Started
     Sleep  5
-    log to console  Critical tests Passed
+    log to console  Critical Tests Passed
 
 Test for Smoke Test Cases
     [Tags]    Smoke_Test
