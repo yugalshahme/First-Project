@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage ('Checkout to SCM'){
-            sh 'git checkout ${BRANCH_NAME}'
+        stage('Checkout to SCM') {
+            steps {
+                sh 'git checkout master'
+            }
         }
     }
-
 }
