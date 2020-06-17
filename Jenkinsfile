@@ -13,7 +13,7 @@ pipeline {
                 sh 'git pull'
             }
         }
-        stage('Testing Started') {
+        stage('Testing') {
             steps {
                 sh 'robot --outputdir RegressionTestingSuites/logs RegressionTestingSuites/TestSuites/AllTagsTestCases.robot'
             }
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh 'git checkout master'
                 sh 'git merge testing'
-                sleep 5s
+                sleep 5
             }
         }
     }
