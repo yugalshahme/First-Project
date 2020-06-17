@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout to SCM') {
             steps {
-                sh 'git checkout master'
+                sh 'git checkout testing'
             }
         }
         stage('Testing Started') {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                sh 'robot --outputdir RegressionTestingSuites/logs RegressionTestingSuites/TestSuites/AllTagsTestCases.robot'
+                sh 'git merge master'
             }
         }
     }
