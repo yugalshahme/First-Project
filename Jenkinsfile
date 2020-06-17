@@ -20,8 +20,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                sh 'git checkout master'
-                sh 'git merge testing'
+                sh 'git merge master'
             }
         }
     }
