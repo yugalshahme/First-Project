@@ -22,6 +22,7 @@ pipeline {
             steps {
                 sh 'git checkout master'
                 sh 'git merge testing'
+                sleep 5s
             }
         }
     }
