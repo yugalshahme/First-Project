@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull latest code') {
             steps {
-                sh 'git pull'
+                sh 'git pull origin testing'
             }
         }
         stage('Checkout to SCM') {
