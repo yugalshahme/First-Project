@@ -10,6 +10,7 @@ pipeline {
         stage('Checkout to SCM') {
             steps {
                 sh 'git checkout testing'
+                sh 'git pull'
             }
         }
         stage('Testing Started') {
