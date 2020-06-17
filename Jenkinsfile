@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Pull latest code') {
+            steps {
+                sh 'git pull'
+            }
+        }
         stage('Checkout to SCM') {
             steps {
                 sh 'git checkout testing'
