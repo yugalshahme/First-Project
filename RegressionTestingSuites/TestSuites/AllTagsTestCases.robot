@@ -25,3 +25,9 @@ Test for Functional Test Case
     log to console  Functional Test Started
     Sleep  5
     log to console  Functional Test Passed
+
+Test for Functional Fail Case
+    [Tags]    Functional_Test
+    log t console  Functional Test Started
+    Sleep  5
+    log to console  Functional Test Passed
