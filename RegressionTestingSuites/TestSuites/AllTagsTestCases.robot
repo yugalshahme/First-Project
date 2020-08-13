@@ -28,6 +28,30 @@ Test for Functional Test Case
 
 Test for Functional Fail Case
     [Tags]    Functional_Test
-    log t console  Functional Test Started
+    log to console  Functional Test Started
+    Sleep  5
+    log to console  Functional Test Passed
+    
+Test for Critical Test Case
+    [Tags]    Critical_test
+    log to console  Critical Test Started
+    Sleep  5
+    log to console  Critical Test Passed
+
+Test for Smoke Test Case
+    [Tags]    Smoke_Test
+    log to console  Smoke Test Started
+    Sleep  5
+    log to console  Smoke Test Passed
+
+Test for Sanity Test Case
+    [Tags]    Sanity_Test
+    log to console  Sanity Test Started
+    Sleep  5
+    log to console  Sanity Test Passed
+
+Test for Functional Test Case
+    [Tags]    Functional_Test
+    log to console  Functional Test Started
     Sleep  5
     log to console  Functional Test Passed
